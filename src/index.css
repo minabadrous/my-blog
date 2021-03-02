@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono');
+
+html, body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  max-width: 800px;
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin-bottom: 70px;
+}
+
+.nav-items{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+.navbar .nav-item:nth-child(1) {
+  color: #777272;
+}
+
+.navbar .nav-item:nth-child(2) {
+  color: white;
+  background-color: #5a5abd;
+  padding: 7px; 
+}
+
+.logo {
+  color: #5a5abd;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(97, 82, 82);
+}
+
+.post-preview {
+  padding: 10px;
+  margin: 20px 0;
+  box-shadow: 0px 0px 13px 1px rgb(88 88 88 / 10%);
+  border-radius: 20px;
+}
+
+.post-preview:hover{
+  box-shadow: 0px 0px 13px 1px rgb(104 104 219 / 33%);
+}
+
+.create-blog {
+  display: flex;
+  justify-content: center;
+}
+
+.create-blog form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+}
+
+.create-blog label:not(:nth-child(1)) {
+  margin-top: 30px;
+}
+
+.create-blog input, 
+.create-blog select, 
+.create-blog textarea {
+  padding: 10px;
+  border-radius: 7px;
+  margin-top: 5px;
+  border: 1px solid #dbd0d0;
+}
+
+.create-blog input:focus, 
+.create-blog select:focus, 
+.create-blog textarea:focus{
+  border: 1px solid #5a5abd;
+  outline: none;
+}
+
+.create-blog textarea {
+  height: 200px;
+}
+
+button.add-post {
+  width: fit-content;
+  margin: 50px auto;
+  padding: 13px;
+  font-size: 15px;
+  border-radius: 7px;
+  border: none;
+  background-color: #5a5abd;
+  color: white;
+}
+
+button.add-post:hover{
+  cursor: pointer;
+}
+
+.post-link{
+  text-decoration: none;
+  color: black;
+}
+
+button.delete-post {
+  background: #ffffff;
+  color: #5a5abd;
+  padding: 15px;
+  border: 1px solid #5a5abd;
+  border-radius: 7px;
+  font-size: 16px;
+  margin-top: 40px;
+  font-weight: bold;
+}
+
+button.delete-post:hover{
+  background: #5a5abd;
+  color: #fff;
+  cursor: pointer;
+}
+
+input.posts-search {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  box-shadow: inset 0px 0px 5px 0px rgb(88 88 88 / 15%);
+}
+
+input.posts-search::placeholder{
+  color: rgb(156, 156, 156)
+}
+
+input.posts-search:focus {
+  outline: none;
+  border: 1px solid #37378c;
+}
+
+.post-icons{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.post-icons svg {
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+  padding: 15px;
+}
+
+.post-icons svg:hover{
+  background-color: #e1e1e1;
+  border-radius: 30%;
+}
+
+.post-preview{
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+}
+
+h2.preview-title {
+  margin-top: 10px;
+}
+
+.post-header {
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+}
+
+p.post-author {
+  margin: -10px 0 30px 0;
+  color: #9e9e9e;
+}
+
+.author-select{
+  width: 100%;
+}
+
+.add-author {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  margin-top: 5px;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.add-author button {
+  height: 40px;
+  width: 150px;
+  border: none;
+  border-radius: 7px;
+}
+
+.add-author button:hover{
+  background-color: #5a5abd;
+  color: white;
+  cursor: pointer;
+}
+
+.add-author input::placeholder{
+  color: rgb(179, 179, 179);
+}

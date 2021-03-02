@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "title": "How awesome am I? haa?",
+      "body": "I reaaaaaaaaaaally am great. I can do what ever if I put my mind into it. I believe in that.",
+      "author": "Mario Youshi",
+      "id": 7
+    },
+    {
+      "title": "My third post",
+      "body": "This is my third post till now. Doing great.",
+      "author": "Mina Badrous",
+      "id": 8
+    },
+    {
+      "title": "New era",
+      "body": "I gotta have faith in this new era. I'm doing great.",
+      "author": "Mina Badrous",
+      "id": 9
+    }
+  ],
+  "authors": [
+    {
+      "name": "Mina Badrous",
+      "id": 1
+    },
+    {
+      "name": "Mario Youshi",
+      "id": 2
+    },
+    {
+      "name": "aaa",
+      "id": 3
+    },
+    {
+      "name": "aaa",
+      "id": 4
+    },
+    {
+      "name": "Hamza",
+      "id": 5
+    },
+    {
+      "name": "",
+      "id": 6
+    }
+  ]
+}
